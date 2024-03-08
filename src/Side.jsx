@@ -23,7 +23,7 @@ export default function Side({ rotation = [0, 0, 0], bg = '#f0f0f0', children, i
                     aoMapIntensity={1}
                     aoMap={nodes.Cube.material.aoMap}
                     color={bg} />
-                <spotLight castShadow color={bg} intensity={200} position={[10, 10, 10]} angle={0.15}  shadow-normalBias={0.05} shadow-bias={0.0001} />
+                <spotLight castShadow color={bg} intensity={2} position={[10, 10, 10]} angle={0.15}  shadow-normalBias={0.05} shadow-bias={0.0001} />
 
             </mesh>
 
