@@ -4,7 +4,7 @@ import { useRef } from "react";
 
 export default function Side({ rotation = [0, 0, 0], bg = '#f0f0f0', children, index }) {
     const shape = useRef()
-    const { nodes } = useGLTF('/aobox-transformed.glb')
+    const { nodes } = useGLTF('aobox-transformed.glb')
 
     useFrame((state, delta) => {
         shape.current.rotation.x = shape.current.rotation.y += delta
