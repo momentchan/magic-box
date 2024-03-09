@@ -12,4 +12,4 @@ useGLTF('/aobox-transformed.glb') -> useGLTF('aobox-transformed.glb')
 ```
 <img src="Screenshot.png" width="320px">
 
-[**Live Demo**](https://nodejs.org/en/download/](https://momentchan.github.io/r3f-magic-box/))
+[**Live Demo**](https://momentchan.github.io/r3f-magic-box/)
